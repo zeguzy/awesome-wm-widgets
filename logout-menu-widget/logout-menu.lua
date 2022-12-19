@@ -123,7 +123,7 @@ local function worker(user_args)
                             logout_menu_widget:set_bg('#00000000')
                         else
                             popup:move_next_to(mouse.current_widget_geometry)
-                            logout_menu_widget:set_bg(beautiful.bg_focus)
+                            logout_menu_widget:set_bg('#1a2629')
                         end
                     end)
             )
@@ -133,4 +133,4 @@ local function worker(user_args)
 
 end
 
-return worker
+return setmetatable(logout_menu_widget, { __call = function(_, ...) return worker(...) end })
