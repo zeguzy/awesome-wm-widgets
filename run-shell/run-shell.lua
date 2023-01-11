@@ -123,7 +123,7 @@ function widget.new()
                     shape_border_color = "#74aeab",
                     shape_border_width = 1,
                     forced_width = 200,
-                    forced_height = 50,
+                    forced_height = 30,
                     widget = wibox.container.background
                 },
                 valign = "center",

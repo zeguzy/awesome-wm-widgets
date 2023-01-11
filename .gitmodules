@@ -1,0 +1,6 @@
+[submodule "awesome-buttons"]
+	path = awesome-buttons
+	url = https://github.com/zeguzy/awesome-buttons.git
+[submodule "awesome-wm-widgets"]
+	path = awesome-wm-widgets
+	url = https://github.com/zeguzy/awesome-wm-widgets.git
